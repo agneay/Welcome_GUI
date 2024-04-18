@@ -10,8 +10,36 @@
 
 I bellieve in complete hackable software and creativity freedom and thats exactly why I created Welcome_GUI. With easy to install and setup process
 
+> NOTE: Currently this application is only available for linux
+
 ## Getting Started
 Clone the repo
 ```
 git clone https://github.com/agneay/Welcome_GUI
 ```
+
+create a folder named Welcome_GUI by the following command
+```
+mkdir ~/.config/Welcome_GUI
+```
+
+copy `main.py` and `config.json` files to `Welcome_GUI` folder
+
+## Dependencies
+- Python3.12.3
+- Pip
+- Pip packages [AppOpener,pillow,tkinter,json]
+
+  To install the pip packages run the following commands
+  ```
+  pip install pillow AppOpener tkinter json
+  ```
+  or alternatively run
+  ```
+  pip install -r requirements.txt
+  ```
+
+
+
+
+
