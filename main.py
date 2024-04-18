@@ -3,7 +3,7 @@ from tkinter import *
 from PIL import ImageTk , Image
 import AppOpener
  
-f = open("config.json","r")
+f = open("~/.config/Welcome_GUI/config.json","r")
 delta = f.read()
 
 data = json.loads(delta)
